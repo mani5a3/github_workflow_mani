@@ -12,7 +12,7 @@ jobs:
   testjob:
     runs-on: ubuntu-latest
     steps:
-    - uses: game-of-life@main
+    - uses: wakaleo/game-of-life@main
     - name: test job
       run: echo "this is sample job"
       shell: bash
