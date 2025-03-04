@@ -12,7 +12,7 @@ jobs:
   testjob:
     runs-on: ubuntu-latest
     steps:
-    - uses: wakaleo/game-of-life@master
+    - uses: mani5a3/game-of-life@master
     - name: Set up JDK 8
       uses: actions/setup-java@v2
       with:
