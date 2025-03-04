@@ -16,10 +16,3 @@ jobs:
     - name: test job
       run: echo "this is sample job"
       shell: bash
-
-  testjob2:
-    runs-on: ubuntu-latest
-  steps:
-    - name: job2
-      run: echo "this is sample job2"
-      shell: bash
